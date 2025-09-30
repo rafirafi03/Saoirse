@@ -6,8 +6,8 @@ const navItems = [
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
   { href: "/franchise", label: "Franchise" },
-  { href: "/contact", label: "Contact" },
   { href: "/ov-om", label: "Ov&Om" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function SiteHeader() {
