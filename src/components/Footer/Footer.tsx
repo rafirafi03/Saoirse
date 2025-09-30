@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
 export default function Footer() {
-
   const navigate = useNavigate();
   return (
     <footer className="relative bg-gray-200 bg-[url('/assets/saiorse-watermark.png')] bg-cover bg-center font-satoshi">
@@ -28,12 +27,12 @@ export default function Footer() {
               className="flex items-center gap-3 pt-2"
               aria-label="Social media"
             >
-              {/* Facebook */}
+              {/* Linkedin */}
               <a
-                href="#"
-                aria-label="Facebook"
+                href="https://www.linkedin.com/company/saoirse-it-solutions/"
+                aria-label="LinkedIn"
                 className="inline-flex h-9 w-9 items-center justify-center rounded-md"
-                title="Facebook"
+                title="LinkedIn"
               >
                 <svg
                   viewBox="0 0 24 24"
@@ -41,9 +40,9 @@ export default function Footer() {
                   role="img"
                   aria-hidden="true"
                 >
-                  <rect width="24" height="24" rx="6" fill="#1877F2" />
+                  <rect width="24" height="24" rx="6" fill="#4b6eff" />
                   <path
-                    d="M13.5 8.5h1.75V6H13.5a3 3 0 0 0-3 3v1.5H8v2.5h2.5V18H13v-5H15.1l.4-2.5H13V9a.5.5 0 0 1 .5-.5Z"
+                    d="M8 10.5h1.5V16H8v-5.5ZM8.75 7.5a.875.875 0 1 1 0 1.75.875.875 0 0 1 0-1.75ZM11 10.5h1.44v.75h.02a1.58 1.58 0 0 1 1.42-.78c1.52 0 1.8 1 1.8 2.3V16h-1.5v-2.7c0-.56-.01-1.28-.78-1.28s-.9.61-.9 1.24V16H11v-5.5Z"
                     fill="#fff"
                   />
                 </svg>
@@ -71,9 +70,9 @@ export default function Footer() {
               </a> */}
               {/* WhatsApp */}
               <a
-                href="#"
+                href="https://wa.me/919946502769?text=I%20want%20to%20know%20more%20details%20about%20the%20company"
                 aria-label="WhatsApp"
-                className="inline-flex h-9 w-9 items-center justify-center rounded-md bg-blue-500"
+                className="inline-flex h-9 w-9 items-center justify-center rounded-md bg-[#4b6eff]"
                 title="WhatsApp"
               >
                 {/* WhatsApp-style icon (64x64) */}
@@ -108,16 +107,28 @@ export default function Footer() {
           {/* Column 3: Menus */}
           <nav aria-label="Footer menus" className="flex flex-col gap-3">
             <h3 className="text-slate-900 font-semibold">Menus</h3>
-            <a onClick={()=> navigate('/about')} className="text-slate-700 underline underline-offset-2 cursor-pointer">
+            <a
+              onClick={() => navigate("/about")}
+              className="text-slate-700 underline underline-offset-2 cursor-pointer"
+            >
               About us
             </a>
-            <a onClick={()=> navigate('/franchise')} className="text-slate-700 underline underline-offset-2 cursor-pointer">
+            <a
+              onClick={() => navigate("/franchise")}
+              className="text-slate-700 underline underline-offset-2 cursor-pointer"
+            >
               Franchise
             </a>
-            <a onClick={()=> navigate('/privacy-policy')} className="text-slate-700 underline underline-offset-2 cursor-pointer">
+            <a
+              onClick={() => navigate("/privacy-policy")}
+              className="text-slate-700 underline underline-offset-2 cursor-pointer"
+            >
               Privacy&amp;Policy
             </a>
-            <a onClick={()=> navigate('/terms-and-condition')} className="text-slate-700 underline underline-offset-2 cursor-pointer">
+            <a
+              onClick={() => navigate("/terms-and-condition")}
+              className="text-slate-700 underline underline-offset-2 cursor-pointer"
+            >
               Teams &amp; condition
             </a>
           </nav>
@@ -134,7 +145,10 @@ export default function Footer() {
             <a href="#" className="text-slate-700 underline underline-offset-2">
               Twitter
             </a> */}
-            <a href="#" className="text-slate-700 underline underline-offset-2">
+            <a
+              href="https://www.linkedin.com/company/saoirse-it-solutions/"
+              className="text-slate-700 underline underline-offset-2"
+            >
               Linkedin
             </a>
           </nav>

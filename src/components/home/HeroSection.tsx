@@ -102,9 +102,10 @@ const Hero = () => {
           {/* Center: Soft card + neon Join Now button */}
           <div className="order-2 md:order-2 flex justify-center mb-8 md:mb-0 py-8">
             <button
+            onClick={() => navigate("/franchise")}
               type="button"
               aria-label="Join Now"
-              className="relative inline-flex items-center justify-center rounded-full bg-black px-8 md:px-10 py-3 md:py-3.5 text-base md:text-lg tracking-[0.2em] text-blue-300 border border-blue-500 shadow-[0_0_0_2px_rgba(59,130,246,0.35)_inset,0_0_18px_rgba(59,130,246,0.55)] focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/50"
+              className="relative inline-flex items-center justify-center rounded-full bg-black px-8 md:px-10 py-3 md:py-3.5 text-base md:text-lg tracking-[0.2em] text-blue-300 border border-blue-500 shadow-[0_0_0_2px_rgba(59,130,246,0.35)_inset,0_0_18px_rgba(59,130,246,0.55)] focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/50 cursor-pointer"
             >
               <span className="font-medium">Join Now</span>
             </button>
