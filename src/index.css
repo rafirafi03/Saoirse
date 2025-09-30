@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+
+body {
+  @apply bg-gray-200; /* or bg-gray-100 / any Tailwind color */
+}
+/* exact requested color */
+:root {
+  --header-ink: #484a5e;
+}
+
+/* use Satoshi only where applied to avoid global overrides */
+.font-satoshi {
+  font-family:
+    "Satoshi",
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    sans-serif;
+}
+
+/* single utility to apply the ink color */
+.text-ink {
+  color: var(--header-ink);
+}
+
+.soft-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04), 0 6px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
