@@ -28,7 +28,7 @@ export default function TermConditionSection() {
 
         {/* Section 2: Definitions */}
         <h2 className="text-xl sm:text-2xl font-semibold mb-4">2. Definitions</h2>
-        <ul className="list-disc pl-6 space-y-3 text-base sm:text-lg mb-8">
+        <ul className="list-disc pl-6 space-y-2 text-base sm:text-lg mb-8">
           <li>
             <span className="font-semibold">Client/You/User</span> – Any individual, 
             business, or entity that accesses or uses our Services.
