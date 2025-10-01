@@ -40,7 +40,7 @@ export default function MissionVision() {
           <div className="flex items-center gap-6">
             <div className="w-20 h-20 sm:w-24 sm:h-24 lg:w-28 lg:h-28">
               <img
-                src="/assets/our-mission-icon.png"
+                src="/assets/our-vision-icon.png"
                 alt="Mission Icon"
                 className="w-full h-full object-contain"
               />
