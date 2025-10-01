@@ -1,6 +1,6 @@
 export default function TermConditionSection() {
   return (
-    <section className="bg-gray-200 text-[#484a5e] font-satoshi px-6 sm:px-8 lg:px-20 py-30">
+    <section className="bg-gray-200 text-[#484a5e] font-satoshi px-6 sm:px-8 lg:px-20 pt-30 pb-14">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6">

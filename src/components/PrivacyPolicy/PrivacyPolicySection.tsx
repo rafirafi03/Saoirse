@@ -1,11 +1,16 @@
 export default function PrivacyPolicySection() {
   return (
-    <section className=" bg-gray-200 text-[#484a5e] font-satoshi px-6 sm:px-8 lg:px-20 py-30">
+    <section className=" bg-gray-200 text-[#484a5e] font-satoshi px-6 sm:px-8 lg:px-20 pt-30 pb-14">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6">
           Saoirse IT Solutions Privacy Policy
         </h1>
+
+        {/* Section 2 */}
+        <h2 className="text-xl sm:text-2xl font-semibold mb-4">
+          1. Introduction
+        </h2>
 
         {/* Intro */}
         <p className="mb-4 text-base sm:text-lg leading-relaxed">
@@ -32,6 +37,8 @@ export default function PrivacyPolicySection() {
           By using our services or providing your information, you consent to
           the terms described herein.
         </p>
+
+        <div className="border-t border-gray-400 my-8"></div>
 
         {/* Section 2 */}
         <h2 className="text-xl sm:text-2xl font-semibold mb-4">
@@ -82,6 +89,8 @@ export default function PrivacyPolicySection() {
           <li>Cookies, analytics data</li>
         </ul>
 
+        <div className="border-t border-gray-400 my-8"></div>
+
         {/* 3. How We Collect Information */}
         <h2 className="text-xl font-semibold mt-6 mb-2">
           3. How We Collect Information
@@ -98,6 +107,8 @@ export default function PrivacyPolicySection() {
             sources)
           </li>
         </ul>
+
+        <div className="border-t border-gray-400 my-8"></div>
 
         {/* 4. Purpose of Using Your Data */}
         <h2 className="text-xl font-semibold mt-6 mb-2">
@@ -118,6 +129,8 @@ export default function PrivacyPolicySection() {
           </li>
         </ul>
 
+        <div className="border-t border-gray-400 my-8"></div>
+
         {/* 5. Legal Basis */}
         <h2 className="text-xl font-semibold mt-6 mb-2">
           5. Legal Basis (if applicable)
@@ -132,6 +145,8 @@ export default function PrivacyPolicySection() {
           <li>Compliance with legal obligation</li>
           <li>Legitimate interests (balanced with your rights)</li>
         </ul>
+
+        <div className="border-t border-gray-400 my-8"></div>
 
         {/* 6. Disclosure of Your Information */}
         <h2 className="text-xl font-semibold mt-6 mb-2">
@@ -149,6 +164,8 @@ export default function PrivacyPolicySection() {
           your consent (unless required by law).
         </p>
 
+        <div className="border-t border-gray-400 my-8"></div>
+
         {/* 7. International Transfers */}
         <h2 className="text-xl font-semibold mt-6 mb-2">
           7. International Transfers
@@ -159,6 +176,8 @@ export default function PrivacyPolicySection() {
           contractual clauses, binding corporate rules) to protect your data.
         </p>
 
+        <div className="border-t border-gray-400 my-8"></div>
+
         {/* 8. Data Retention */}
         <h2 className="text-xl font-semibold mt-6 mb-2">8. Data Retention</h2>
         <p className="mb-4">
@@ -167,6 +186,8 @@ export default function PrivacyPolicySection() {
           reporting obligations). After that, we will delete or anonymize your
           data.
         </p>
+
+        <div className="border-t border-gray-400 my-8"></div>
 
         {/* 9. Security */}
         <h2 className="text-xl font-semibold mt-6 mb-2">9. Security</h2>
@@ -177,6 +198,8 @@ export default function PrivacyPolicySection() {
           detection). However, no system is 100% secure; we cannot guarantee
           absolute security.
         </p>
+
+        <div className="border-t border-gray-400 my-8"></div>
 
         {/* 10. Cookies & Tracking Technologies */}
         <h2 className="text-xl font-semibold mt-6 mb-2">
@@ -195,6 +218,8 @@ export default function PrivacyPolicySection() {
           You can control or disable cookies via your browser settings; however,
           some features may not work properly without them.
         </p>
+
+        <div className="border-t border-gray-400 my-8"></div>
 
         {/* 11. Your Rights */}
         <h2 className="text-xl font-semibold mt-6 mb-2">11. Your Rights</h2>
@@ -215,6 +240,8 @@ export default function PrivacyPolicySection() {
           </li>
         </ul>
 
+        <div className="border-t border-gray-400 my-8"></div>
+
         <h2 className="text-xl font-semibold mt-6 mb-2">
           12. Children's Privacy
         </h2>
@@ -225,6 +252,8 @@ export default function PrivacyPolicySection() {
           it.
         </p>
 
+        <div className="border-t border-gray-400 my-8"></div>
+
         <h2 className="text-xl font-semibold mt-6 mb-2">
           13. Changes to This Policy
         </h2>
@@ -233,6 +262,8 @@ export default function PrivacyPolicySection() {
           will revise the "Effective Date" and notify you (e.g., via email or
           website notice). Please review periodically.
         </p>
+
+        <div className="border-t border-gray-400 my-8"></div>
 
         <h2 className="text-xl font-semibold mt-6 mb-2">14. Contact Us</h2>
         <p className="mb-2">
@@ -247,6 +278,8 @@ export default function PrivacyPolicySection() {
           <li>info@saoirseitsolution.com</li>
           <li>+91 7012906994</li>
         </ul>
+
+        <div className="border-t border-gray-400 my-8"></div>
 
         <h2 className="text-xl font-semibold mt-6 mb-2">
           Notes and Recommendations
