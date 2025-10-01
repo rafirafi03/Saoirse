@@ -14,12 +14,14 @@ export default function AboutHero() {
             {/* Body copy */}
             <div className="mt-6 space-y-4 text-sm leading-6 text-white/90 md:text-lg md:leading-7">
               <p>
-                At Saoirse, we are not just building technology — we are shaping tomorrow’s digital infrastructure. Our
-                mission is to make the future simple, smart, and scalable for everyone.
+                At Saoirse, we are not just building technology — we are shaping
+                tomorrow’s digital infrastructure. Our mission is to make the
+                future simple, smart, and scalable for everyone.
               </p>
               <p>
-                Founded with a vision of freedom through innovation, Saoirse is proudly based in Kannur, Kerala, India,
-                and driven by a global mindset.
+                Founded on the belief that innovation drives freedom, Saoirse is
+                proudly based in Kannur, Kerala, India, and powered by a global
+                mindset.
               </p>
 
               {/* Underlined lead */}
@@ -30,17 +32,26 @@ export default function AboutHero() {
               {/* Commitment bullets (styled lines to match design) */}
               <ul className="mt-1 grid gap-2 text-white/90">
                 <li className="flex gap-3">
-                  <span aria-hidden className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-white/80" />
-                  <span>Designing platforms that empower people to earn, invest, and grow.</span>
+                  <span
+                    aria-hidden
+                    className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-white/80"
+                  />
+                  <span>
+                    Designing platforms that empower people to earn, invest, and grow.
+
+                  </span>
                 </li>
                 <li className="flex gap-3">
-                  <span aria-hidden className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-white/80" />
-                  <span>Delivering solutions that combine cutting-edge technology with real-world accessibility.</span>
+                  <span
+                    aria-hidden
+                    className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-white/80"
+                  />
+                  <span>
+                    Delivering solutions that combine cutting-edge technology with real-world accessibility.
+
+                  </span>
                 </li>
-                <li className="flex gap-3">
-                  <span aria-hidden className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-white/80" />
-                  <span>Delivering solutions that combine cutting-edge technology with real-world accessibility.</span>
-                </li>
+                
               </ul>
             </div>
           </div>
@@ -59,9 +70,12 @@ export default function AboutHero() {
             />
           </div>
 
-          <div className="pointer-events-none absolute inset-0 rounded-3xl ring-1 ring-white/15" aria-hidden="true" />
+          <div
+            className="pointer-events-none absolute inset-0 rounded-3xl ring-1 ring-white/15"
+            aria-hidden="true"
+          />
         </div>
       </div>
     </section>
-  )
+  );
 }

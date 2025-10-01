@@ -22,14 +22,14 @@ export default function MissionVision() {
           {/* Content */}
           <div className="space-y-4">
             <p className="text-base sm:text-lg lg:text-xl leading-relaxed">
-              At Saoirse, our mission is to create digital solutions that not
-              only empower businesses and individuals, but also transform the
+              At Saoirse, our mission is to create digital solutions that don’t
+              just empower businesses and individuals, but also transform the
               way communities connect, grow, and thrive.
             </p>
 
             <p className="text-base sm:text-lg lg:text-xl leading-relaxed">
               We believe technology should be accessible, inclusive, and
-              beneficial for everyone — not just a privileged few.
+              beneficial to everyone — not just a privileged few.
             </p>
           </div>
         </div>
@@ -54,17 +54,16 @@ export default function MissionVision() {
           {/* Content */}
           <div className="space-y-4">
             <p className="text-base sm:text-lg lg:text-xl leading-relaxed">
-              At Saoirse, our vision is to become India's most inclusive
-              technology ecosystem, creating an environment where innovation is
-              nurtured, opportunities are shared, and progress benefits
-              everyone.
+              Our vision is to become India’s most inclusive technology
+              ecosystem — a space where innovation is nurtured, opportunities
+              are shared, and progress benefits everyone.
             </p>
 
             <p className="text-base sm:text-lg lg:text-xl leading-relaxed">
-              We strive to make technology accessible, scalable, and impactful,
-              ensuring it drives not only economic growth but also meaningful
-              social transformation for individuals, businesses, and communities
-              across the nation.
+              We aim to make technology scalable, impactful, and accessible,
+              driving not only economic growth but also meaningful social
+              transformation for individuals, businesses, and communities across
+              the nation.
             </p>
           </div>
         </div>
