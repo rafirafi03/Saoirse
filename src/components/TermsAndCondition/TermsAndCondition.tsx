@@ -9,7 +9,7 @@ export default function TermConditionSection() {
 
         {/* Effective Date */}
         <p className="mb-8 text-base sm:text-lg leading-relaxed font-medium">
-          <em>Effective Date:</em> [Insert Date]
+          <em>Effective Date:</em> DEC 9 2023
         </p>
 
         {/* Section 1: Introduction */}
